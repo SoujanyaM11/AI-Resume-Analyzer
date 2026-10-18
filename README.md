@@ -117,24 +117,7 @@ python -m pytest tests -q
 
 The tests cover parsing PDF/DOCX and bad files, bounded and explainable scores, no-key behaviour, simulated quota, key, timeout and bad-JSON failures, prompt redaction, and a headless run of the whole UI flow. No test calls the network.
 
-## Verified vs. not verified
 
-Verified here: all tests pass; the server starts and answers its health check; every page renders headlessly; the interview flow (question → answer → evaluation → follow-up → report), job matching and roadmap work with no key.
-
-**Not verified** (needs your key, browser or network): real Gemini responses and quality, current free-tier limits for your project, the live Arbeitnow feed (parser tested against a hand-written payload only), browser speech playback, microphone recording and Gemini transcription, and deployment on Streamlit Community Cloud.
-
-## Troubleshooting
-
-| Symptom | Fix |
-|---|---|
-| "No GEMINI_API_KEY is configured" | Set the env var or Streamlit secret, then restart. Fallback mode still works. |
-| "API key was rejected" | Regenerate the key in AI Studio and update the secret. |
-| "quota or rate limit reached" | Wait, or use fallback mode (sidebar toggle). Check your limits in AI Studio. |
-| "model was not found" | Unset `GEMINI_MODEL` to auto-select, or set a current model name. |
-| "Very little text could be extracted" | Scanned/image PDFs are unsupported (no OCR). Export a text-based PDF or paste the text. |
-| No speech playback | Your browser may lack SpeechSynthesis. Read the question on screen. |
-| Live jobs fail | The feed may be down or rate-limiting. Use sample jobs. |
-| Deploy fails on dependencies | Check the build log and make sure `requirements.txt` is at the repo root. |
 
 ## Known limitations
 
