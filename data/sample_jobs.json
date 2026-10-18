@@ -1,0 +1,418 @@
+{
+ "_note": "SAMPLE DATA ONLY. These are fictional listings for demonstration; companies and links are not real.",
+ "jobs": [
+  {
+   "id": "sample-01",
+   "title": "Junior Python Developer",
+   "company": "Example Corp A (sample)",
+   "location": "Bengaluru, India",
+   "remote": false,
+   "description": "Build and maintain backend services and internal tools in Python. Work with REST APIs and relational databases under senior guidance.",
+   "required_skills": [
+    "Python",
+    "SQL",
+    "Git",
+    "REST APIs",
+    "OOP"
+   ],
+   "preferred_skills": [
+    "Flask",
+    "Django",
+    "Testing",
+    "Docker"
+   ],
+   "min_years": 0,
+   "min_education": "bachelor",
+   "role_tags": [
+    "Python Developer",
+    "Software Engineer"
+   ],
+   "source": "sample",
+   "is_sample": true,
+   "url": null,
+   "retrieved_at": null
+  },
+  {
+   "id": "sample-02",
+   "title": "Backend Developer (FastAPI)",
+   "company": "Example Corp B (sample)",
+   "location": "Remote",
+   "remote": true,
+   "description": "Design REST APIs with FastAPI, write tests and work with PostgreSQL and Docker in a small product team.",
+   "required_skills": [
+    "Python",
+    "FastAPI",
+    "REST APIs",
+    "PostgreSQL",
+    "Git"
+   ],
+   "preferred_skills": [
+    "Docker",
+    "Testing",
+    "CI/CD",
+    "AWS"
+   ],
+   "min_years": 1,
+   "min_education": "bachelor",
+   "role_tags": [
+    "Python Developer",
+    "Software Engineer"
+   ],
+   "source": "sample",
+   "is_sample": true,
+   "url": null,
+   "retrieved_at": null
+  },
+  {
+   "id": "sample-03",
+   "title": "Data Analyst",
+   "company": "Example Corp C (sample)",
+   "location": "Hyderabad, India",
+   "remote": false,
+   "description": "Analyse business data with SQL and Excel, build dashboards and present insights to stakeholders. Python and pandas are used for larger analyses.",
+   "required_skills": [
+    "SQL",
+    "Excel",
+    "Data Visualization",
+    "Statistics"
+   ],
+   "preferred_skills": [
+    "Python",
+    "Pandas",
+    "Power BI",
+    "Tableau"
+   ],
+   "min_years": 0,
+   "min_education": "bachelor",
+   "role_tags": [
+    "Data Analyst"
+   ],
+   "source": "sample",
+   "is_sample": true,
+   "url": null,
+   "retrieved_at": null
+  },
+  {
+   "id": "sample-04",
+   "title": "Business Intelligence Analyst",
+   "company": "Example Corp D (sample)",
+   "location": "Pune, India",
+   "remote": false,
+   "description": "Create Power BI and Tableau dashboards, write complex SQL, and automate reporting using Python and ETL pipelines.",
+   "required_skills": [
+    "SQL",
+    "Power BI",
+    "Data Visualization",
+    "ETL"
+   ],
+   "preferred_skills": [
+    "Tableau",
+    "Python",
+    "Excel"
+   ],
+   "min_years": 1,
+   "min_education": "bachelor",
+   "role_tags": [
+    "Data Analyst"
+   ],
+   "source": "sample",
+   "is_sample": true,
+   "url": null,
+   "retrieved_at": null
+  },
+  {
+   "id": "sample-05",
+   "title": "Machine Learning Intern",
+   "company": "Example Corp E (sample)",
+   "location": "Remote",
+   "remote": true,
+   "description": "Support the ML team with data preparation, model training and evaluation using Python, pandas and scikit-learn.",
+   "required_skills": [
+    "Python",
+    "Machine Learning",
+    "Pandas",
+    "NumPy"
+   ],
+   "preferred_skills": [
+    "Deep Learning",
+    "Git",
+    "Statistics"
+   ],
+   "min_years": 0,
+   "min_education": "bachelor",
+   "role_tags": [
+    "AI/ML Engineer",
+    "Data Analyst"
+   ],
+   "source": "sample",
+   "is_sample": true,
+   "url": null,
+   "retrieved_at": null
+  },
+  {
+   "id": "sample-06",
+   "title": "AI/ML Engineer",
+   "company": "Example Corp F (sample)",
+   "location": "Bengaluru, India",
+   "remote": false,
+   "description": "Train, evaluate and deploy machine learning and deep learning models. Work with PyTorch or TensorFlow, Docker and Git.",
+   "required_skills": [
+    "Python",
+    "Machine Learning",
+    "Deep Learning",
+    "PyTorch",
+    "Git"
+   ],
+   "preferred_skills": [
+    "TensorFlow",
+    "Docker",
+    "NLP",
+    "AWS"
+   ],
+   "min_years": 2,
+   "min_education": "bachelor",
+   "role_tags": [
+    "AI/ML Engineer"
+   ],
+   "source": "sample",
+   "is_sample": true,
+   "url": null,
+   "retrieved_at": null
+  },
+  {
+   "id": "sample-07",
+   "title": "NLP Engineer",
+   "company": "Example Corp G (sample)",
+   "location": "Remote",
+   "remote": true,
+   "description": "Build NLP pipelines for text classification and LLM-powered features, including RAG prototypes.",
+   "required_skills": [
+    "Python",
+    "NLP",
+    "Machine Learning",
+    "PyTorch"
+   ],
+   "preferred_skills": [
+    "LLMs",
+    "Docker",
+    "Git"
+   ],
+   "min_years": 1,
+   "min_education": "bachelor",
+   "role_tags": [
+    "AI/ML Engineer"
+   ],
+   "source": "sample",
+   "is_sample": true,
+   "url": null,
+   "retrieved_at": null
+  },
+  {
+   "id": "sample-08",
+   "title": "Computer Vision Engineer",
+   "company": "Example Corp H (sample)",
+   "location": "Chennai, India",
+   "remote": false,
+   "description": "Develop image classification and detection models with OpenCV and deep learning frameworks.",
+   "required_skills": [
+    "Python",
+    "Computer Vision",
+    "Deep Learning",
+    "TensorFlow"
+   ],
+   "preferred_skills": [
+    "PyTorch",
+    "Docker",
+    "Linux"
+   ],
+   "min_years": 2,
+   "min_education": "bachelor",
+   "role_tags": [
+    "AI/ML Engineer"
+   ],
+   "source": "sample",
+   "is_sample": true,
+   "url": null,
+   "retrieved_at": null
+  },
+  {
+   "id": "sample-09",
+   "title": "Software Engineer I",
+   "company": "Example Corp I (sample)",
+   "location": "Bengaluru, India",
+   "remote": false,
+   "description": "Write production code, participate in code reviews and design reviews. Strong fundamentals in data structures and algorithms expected.",
+   "required_skills": [
+    "Data Structures",
+    "Algorithms",
+    "OOP",
+    "Git",
+    "SQL"
+   ],
+   "preferred_skills": [
+    "Java",
+    "Python",
+    "System Design",
+    "Testing"
+   ],
+   "min_years": 0,
+   "min_education": "bachelor",
+   "role_tags": [
+    "Software Engineer"
+   ],
+   "source": "sample",
+   "is_sample": true,
+   "url": null,
+   "retrieved_at": null
+  },
+  {
+   "id": "sample-10",
+   "title": "Java Backend Engineer",
+   "company": "Example Corp J (sample)",
+   "location": "Mumbai, India",
+   "remote": false,
+   "description": "Build microservices with Java and Spring Boot, integrate REST APIs and SQL databases.",
+   "required_skills": [
+    "Java",
+    "Spring Boot",
+    "SQL",
+    "REST APIs",
+    "OOP"
+   ],
+   "preferred_skills": [
+    "Docker",
+    "AWS",
+    "Testing",
+    "CI/CD"
+   ],
+   "min_years": 2,
+   "min_education": "bachelor",
+   "role_tags": [
+    "Software Engineer"
+   ],
+   "source": "sample",
+   "is_sample": true,
+   "url": null,
+   "retrieved_at": null
+  },
+  {
+   "id": "sample-11",
+   "title": "Frontend Developer (React)",
+   "company": "Example Corp K (sample)",
+   "location": "Remote",
+   "remote": true,
+   "description": "Build responsive interfaces with React and JavaScript, collaborate with designers and consume REST APIs.",
+   "required_skills": [
+    "JavaScript",
+    "React",
+    "HTML",
+    "CSS",
+    "Git"
+   ],
+   "preferred_skills": [
+    "TypeScript",
+    "REST APIs",
+    "Testing"
+   ],
+   "min_years": 1,
+   "min_education": "bachelor",
+   "role_tags": [
+    "Web Developer",
+    "Software Engineer"
+   ],
+   "source": "sample",
+   "is_sample": true,
+   "url": null,
+   "retrieved_at": null
+  },
+  {
+   "id": "sample-12",
+   "title": "Full-Stack Developer (Node.js)",
+   "company": "Example Corp L (sample)",
+   "location": "Delhi NCR, India",
+   "remote": false,
+   "description": "Develop web apps with Node.js, React and MongoDB. Own features from database to UI.",
+   "required_skills": [
+    "JavaScript",
+    "Node.js",
+    "React",
+    "MongoDB",
+    "REST APIs"
+   ],
+   "preferred_skills": [
+    "TypeScript",
+    "Docker",
+    "AWS"
+   ],
+   "min_years": 1,
+   "min_education": "bachelor",
+   "role_tags": [
+    "Web Developer",
+    "Software Engineer"
+   ],
+   "source": "sample",
+   "is_sample": true,
+   "url": null,
+   "retrieved_at": null
+  },
+  {
+   "id": "sample-13",
+   "title": "Data Scientist",
+   "company": "Example Corp M (sample)",
+   "location": "Gurugram, India",
+   "remote": false,
+   "description": "Apply statistics and machine learning to business problems; communicate results with visualisations.",
+   "required_skills": [
+    "Python",
+    "Statistics",
+    "Machine Learning",
+    "SQL",
+    "Pandas"
+   ],
+   "preferred_skills": [
+    "Deep Learning",
+    "Data Visualization",
+    "Tableau"
+   ],
+   "min_years": 2,
+   "min_education": "master",
+   "role_tags": [
+    "AI/ML Engineer",
+    "Data Analyst"
+   ],
+   "source": "sample",
+   "is_sample": true,
+   "url": null,
+   "retrieved_at": null
+  },
+  {
+   "id": "sample-14",
+   "title": "DevOps-minded Python Engineer",
+   "company": "Example Corp N (sample)",
+   "location": "Remote",
+   "remote": true,
+   "description": "Automate infrastructure and deployments with Python, Docker, Linux and CI/CD pipelines on AWS.",
+   "required_skills": [
+    "Python",
+    "Linux",
+    "Docker",
+    "CI/CD",
+    "Git"
+   ],
+   "preferred_skills": [
+    "AWS",
+    "Testing"
+   ],
+   "min_years": 2,
+   "min_education": "bachelor",
+   "role_tags": [
+    "Python Developer",
+    "Software Engineer"
+   ],
+   "source": "sample",
+   "is_sample": true,
+   "url": null,
+   "retrieved_at": null
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+Aarav Demo Sharma
+demo.candidate@example.com | +91 98765 43210
+github.com/demo-candidate | linkedin.com/in/demo-candidate
+
+SUMMARY
+Final-year computer science student interested in machine learning and backend development.
+
+EDUCATION
+B.Tech in Computer Science, Example Institute of Technology, 2022 - 2026
+CGPA: 8.4/10
+
+EXPERIENCE
+Machine Learning Intern
+Example Analytics Pvt Ltd | Jun 2025 - Aug 2025
+- Built a churn prediction model in Python using scikit-learn and pandas, reaching 82% accuracy on a held-out set.
+- Wrote SQL queries to prepare training data from a PostgreSQL database.
+- Presented findings to a team of 6 engineers.
+
+PROJECTS
+Sentiment Analyzer for Product Reviews
+- Fine-tuned a text classification pipeline (NLP) with scikit-learn and deployed it with Flask.
+- Processed 50,000 reviews with pandas and NumPy.
+Student Expense Tracker
+- Built a REST API with FastAPI and MongoDB; used Git and GitHub for version control.
+
+TECHNICAL SKILLS
+Python, SQL, Pandas, NumPy, scikit-learn, Flask, FastAPI, MongoDB, Git, Docker (basic), Linux
+
+CERTIFICATIONS
+Machine Learning Specialization (online course)
+SQL for Data Analysis (online course)
